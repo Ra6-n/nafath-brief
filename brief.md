@@ -41,4 +41,11 @@ Oman’s Personal Data Protection Law regulates how personal data is processed a
 Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 - https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
+
+A common misconception is that using multi-factor authentication (MFA) automatically makes a login service resistant to phishing. However, not all MFA methods provide the same level of protection. Attackers may steal passwords and one-time codes through fake websites. Phishing-resistant methods, such as passkeys based on FIDO2/WebAuthn, bind authentication to the legitimate website and help prevent this type of attack. A national login service should therefore prioritize phishing-resistant authentication instead of relying only on passwords and manually entered codes.
+
+Resource: https://pages.nist.gov/800-63-4/sp800-63b.html⁠
+
 ## Open Question
+
+How can a national digital login service make account recovery secure and accessible for citizens who lose access to their registered devices?
