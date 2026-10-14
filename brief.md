@@ -23,7 +23,22 @@ Android’s runtime permission model restricts access to sensitive data and devi
 Resource: Android Developers, Request runtime permissions: https://developer.android.com/training/permissions/requesting
 
 ## Networking
+
+DNS over HTTPS (DoH) sends DNS queries through an encrypted HTTPS connection. This helps protect DNS requests from being easily read or modified by someone monitoring the network. However, DoH does not hide all browsing activity, guarantee that a website is safe, or replace HTTPS. A secure national login service can use DoH to improve the privacy of domain lookups, alongside other security controls.
+
+Resource: RFC 8484: DNS Queries over HTTPS - https://www.rfc-editor.org/rfc/rfc8484.html
+
 ## Cybersecurity
+
+Phishing-resistant authentication helps protect citizens from fake login pages that steal passwords or verification codes. Passkeys using FIDO2/WebAuthn can resist phishing because authentication is tied to the legitimate website or service. By contrast, passwords and codes entered into a fake website can be stolen. A national login service should support phishing-resistant authentication and provide secure recovery options to reduce account takeover risks.
+
+Resource: NIST SP 800-63B - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 ## Data
+
+Oman’s Personal Data Protection Law regulates how personal data is processed and protected. A national digital login service should handle citizens’ information responsibly, collect only data needed for its purpose, protect it from unauthorized access, and explain how it is used. The authority should also follow applicable legal requirements for consent, data subject rights, and secure processing. These practices help maintain public trust in digital government services.
+
+Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 - https://decree.om/2022/l20220006/
+
 ## Misconception in My Track
 ## Open Question
